@@ -2,21 +2,12 @@
 
 > @nuxt/content remark bug demonstration
 
-## Build Setup
+## Bug reproduction
 
-```bash
-# install dependencies
-$ yarn install
-
-# serve with hot reload at localhost:3000
-$ yarn dev
-
-# build for production and launch server
-$ yarn build
-$ yarn start
-
-# generate static project
-$ yarn generate
+Run `yarn install` followed by `yarn generate`. There will be warning messages:
 ```
+ WARN  remark-twemoji is not installed
 
-For detailed explanation on how things work, check out [Nuxt.js docs](https://nuxtjs.org).
+ WARN  remark-frontmatter,yaml is not installed
+```
+The packages will work despite those messages, however.
