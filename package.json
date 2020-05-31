@@ -17,6 +17,7 @@
     "remark-twemoji": "^0.1.1"
   },
   "devDependencies": {
-    "@nuxtjs/vuetify": "^1.0.0"
+    "@nuxtjs/vuetify": "^1.0.0",
+    "twemoji": "^13.0.0"
   }
 }
