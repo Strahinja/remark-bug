@@ -1,0 +1,22 @@
+{
+  "name": "remark-bug",
+  "version": "1.0.0",
+  "description": "@nuxt/content remark bug demonstration",
+  "author": "Страхиња Радић",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate"
+  },
+  "dependencies": {
+    "@nuxt/content": "^1.2.0",
+    "nuxt": "^2.0.0",
+    "remark-frontmatter": "^2.0.0",
+    "remark-twemoji": "^0.1.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/vuetify": "^1.0.0"
+  }
+}
